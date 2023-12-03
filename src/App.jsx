@@ -31,7 +31,7 @@ function App() {
         <Route path="/reset-password/:token" element={<ResetPassword />} />
         <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
-        {/* <Footer/> */}
+     <Footer/>
         </Router>
     </div>
   )
