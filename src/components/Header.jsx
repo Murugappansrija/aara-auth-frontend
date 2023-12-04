@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <nav className="navbar py-1 sticky-top navbar-expand-lg text-white header-container ">
       <Link to="/dashboard">
-         <img src="/public/images/logoimg.jpg" width="120" height="80" className="navbar-brand" alt="Brand Logo" /> 
+         <img src="https://img.freepik.com/free-photo/biometric-technology-background-with-fingerprint-scanning-system-virtual-screen-digital-remix_53876-104937.jpg?w=740&t=st=1701660710~exp=1701661310~hmac=0a09a5a5a389dc65905c73db0db74b95b75d68306e64377720e73452737dfdb1" width="120" height="80" className="navbar-brand" alt="Brand Logo" /> 
         {/* <h1 className="navbar-brand">Aaara</h1> */}
       </Link>
       <button
