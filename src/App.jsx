@@ -12,7 +12,6 @@ import ForgotPassword from './pages/ForgotPassword';
 import VerifyToken from './pages/VerifyToken';
 import ResetPassword from './pages/ResetPassword';
 import Header from './components/Header';
-import Footer from './components/Footer';
 import LandingPage from './pages/LandingPage';
 
 function App() {
@@ -31,7 +30,7 @@ function App() {
         <Route path="/reset-password/:token" element={<ResetPassword />} />
         <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
-     <Footer/>
+     
         </Router>
     </div>
   )

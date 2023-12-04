@@ -22,8 +22,8 @@ const Header = () => {
   return (
     <nav className="navbar py-1 sticky-top navbar-expand-lg text-white header-container ">
       <Link to="/dashboard">
-        {/* <img src="/images/logo.png" width="120" height="80" className="navbar-brand" alt="Brand Logo" /> */}
-        <h1 className="navbar-brand">Aaara</h1>
+         <img src="/public/images/logoimg.jpg" width="120" height="80" className="navbar-brand" alt="Brand Logo" /> 
+        {/* <h1 className="navbar-brand">Aaara</h1> */}
       </Link>
       <button
         className="navbar-toggler bg-light"
